@@ -11,22 +11,22 @@ function Navbar() {
             </div>
             <div className="absolute flex flex-col bottom-[10px] flex-shrink-0 text-white">
                 <Link className="text-teal-200 hover:text-white" to="/">
-                    <span className="font-semibold text-[20px] tracking-tight">Inicio</span>
+                    <span className="font-semibold text-[16px] tracking-tight">Inicio</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white" to="/">
-                    <span className="font-semibold text-[20px] tracking-tight">Carta</span>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                    <span className="font-semibold text-[16px] tracking-tight">Carta</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white" to="/">
-                    <span className="font-semibold text-[20px] tracking-tight">Menus</span>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                    <span className="font-semibold text-[16px] tracking-tight">Menus</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white" to="/">
-                    <span className="font-semibold text-[20px] tracking-tight">Bodega</span>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                    <span className="font-semibold text-[16px] tracking-tight">Bodega</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white" to="/">
-                    <span className="font-semibold text-[20px] tracking-tight">Reservas y contactos</span>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                    <span className="font-semibold text-[16px] tracking-tight">Reservas y contactos</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white" to="/">
-                    <span className="font-semibold text-[20px] tracking-tight">Nosotros</span>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                    <span className="font-semibold text-[16px] tracking-tight">Nosotros</span>
                 </Link>
             </div>
         </nav>

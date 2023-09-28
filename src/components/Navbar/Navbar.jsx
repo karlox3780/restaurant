@@ -25,7 +25,7 @@ function Navbar() {
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
                     <span className="font-semibold text-[16px] tracking-tight">Reservas y contactos</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/about">
                     <span className="font-semibold text-[16px] tracking-tight">Nosotros</span>
                 </Link>
             </div>

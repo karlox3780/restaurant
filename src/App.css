@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  background-color: #4f4040;
 }
 
 .App {
@@ -8,4 +9,5 @@ body {
 
 .App-container {
   width: calc(100% - 200px);
+  min-height: 100%;
 }

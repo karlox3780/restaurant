@@ -1,0 +1,230 @@
+[
+    {
+        "name": "López Heredia Viña Tondonía",
+        "type": "Rioja"
+    },
+    {
+        "name": "Rioja Alta Viña Ardanza",
+        "type": "Rioja"
+    },
+    {
+        "name": "Marqués de Murrieta (Reserva)",
+        "type": "Rioja"
+    },
+    {
+        "name": "Muga (Crianza)",
+        "type": "Rioja"
+    },
+    {
+        "name": "Remelluri (Reserva)",
+        "type": "Rioja"
+    },
+    {
+        "name": "Ramón Bilbao (Reserva)",
+        "type": "Rioja"
+    },
+    {
+        "name": "Campillo (Crianza)",
+        "type": "Rioja"
+    },
+    {
+        "name": "Viña Alberdi",
+        "type": "Rioja"
+    },
+    {
+        "name": "Luis Cañas (Crianza)",
+        "type": "Rioja"
+    },
+    {
+        "name": "Viña Real",
+        "type": "Rioja"
+    },
+    {
+        "name": "Pomal",
+        "type": "Rioja"
+    },
+    {
+        "name": "Azpilicueta",
+        "type": "Rioja"
+    },
+    {
+        "name": "Cune 3º Año",
+        "type": "Rioja"
+    },
+    {
+        "name": "Ramón Bilbao (Crianza)",
+        "type": "Rioja"
+    },
+    {
+        "name": "Aalto",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Mauro",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Pago Carraovejas",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Abadía R. (Selección Especial)",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Viña Pedrosa (Crianza)",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Matarromera",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Dehesa de los Canónigos",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Carmelo Rodero (Crianza)",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Arzuaga (Crianza)",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Pesquera",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Emilio Moro",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Haza (Crianza)",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Carmelo Rodero (Roble)",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Viña Mayor (Crianza)",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Finca Resalso (Emilio moro) Roble",
+        "type": "Ribera del Duero"
+    },
+    {
+        "name": "Pazo de San Mauro (Albariño)",
+        "type": "Blancos"
+    },
+    {
+        "name": "Terras Gauda (Albariño)",
+        "type": "Blancos"
+    },
+    {
+        "name": "José Pariente (Verdejo)",
+        "type": "Blancos"
+    },
+    {
+        "name": "Torre la Moreira (Albariño)",
+        "type": "Blancos"
+    },
+    {
+        "name": "Martivilli (Verdejo)",
+        "type": "Blancos"
+    },
+    {
+        "name": "Ramón Bilbao (Verdejo)",
+        "type": "Blancos"
+    },
+    {
+        "name": "Diamante",
+        "type": "Blancos"
+    },
+    {
+        "name": "Illera (punto 5)",
+        "type": "Blancos"
+    },
+    {
+        "name": "Blanco casa",
+        "type": "Blancos"
+    },
+    {
+        "name": "Dominio del Bendito (Crianza)",
+        "type": "Toro"
+    },
+    {
+        "name": "Gran Colegiata (Reserva)",
+        "type": "Toro"
+    },
+    {
+        "name": "Elias Mora (Crianza)",
+        "type": "Toro"
+    },
+    {
+        "name": "Dominio del Bendito (Roble)",
+        "type": "Toro"
+    },
+    {
+        "name": "Madremia (Crianza)",
+        "type": "Toro"
+    },
+    {
+        "name": "Romanico",
+        "type": "Toro"
+    },
+    {
+        "name": "Cermeño (Crianza)",
+        "type": "Toro"
+    },
+    {
+        "name": "Peñascal",
+        "type": "Rosados"
+    },
+    {
+        "name": "Chivite",
+        "type": "Rosados"
+    },
+    {
+        "name": "Rosado Casa",
+        "type": "Rosados"
+    },
+    {
+        "name": "Lambrusco",
+        "type": "Rosados"
+    },
+    {
+        "name": "Habla del Silencio (Extremadura)",
+        "type": "Otros"
+    },
+    {
+        "name": "Abadengo (Salamanca)",
+        "type": "Otros"
+    },
+    {
+        "name": "Viñas del Vero (Somontano)",
+        "type": "Otros"
+    },
+    {
+        "name": "Tinto Casa",
+        "type": "Otros"
+    },
+    {
+        "name": "Moet & Chandon",
+        "type": "Cavas"
+    },
+    {
+        "name": "Juve & Camps",
+        "type": "Cavas"
+    },
+    {
+        "name": "Ana de Codorniu",
+        "type": "Cavas"
+    },
+    {
+        "name": "Cava Casa",
+        "type": "Cavas"
+    }
+]

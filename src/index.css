@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Avenir;
+  src: url('./assets/fonts/Avenir-Light.otf');
+}
+
 body {
   margin: 0;
-  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+  font-family: Avenir;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

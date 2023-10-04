@@ -16,8 +16,8 @@ function Navbar() {
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
                     <span className="font-semibold text-[16px] tracking-tight">Carta</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
-                    <span className="font-semibold text-[16px] tracking-tight">Menus</span>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/menus">
+                    <span className="font-semibold text-[16px] tracking-tight">Menús</span>
                 </Link>
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/winecellar">
                     <span className="font-semibold text-[16px] tracking-tight">Bodega</span>

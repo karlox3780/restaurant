@@ -11,7 +11,7 @@ function WineCellarPage() {
     }
 
     return (
-        <div className='flex flex-col items-center m-[10px]'>
+        <div className='absolute flex flex-col items-center justify-center h-fit min-h-full w-full p-[10px]'>
             <h1 className='text-[45px] text-[#8ea56f] mb-[20px] animate-fade-down'>Bodega</h1>
             <div className='w-[70%] grid grid-cols-3'>
                 <div className='text-left mb-[20px] animate-fade-right'>

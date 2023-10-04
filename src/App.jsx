@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import HomePage from './pages/HomePage/HomePage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import WineCellarPage from './pages/WineCellarPage/WineCellarPage';
+import MenusPage from './pages/MenusPage/MenusPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutUsPage />} />
           <Route path='/winecellar' element={<WineCellarPage />} />
+          <Route path='/menus' element={<MenusPage />} />
         </Routes>
       </div>
       <Navbar />

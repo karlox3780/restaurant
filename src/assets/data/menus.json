@@ -1,0 +1,60 @@
+{
+    "especial_menu": {
+        "name": "MENÚ ESPECIAL DON BUSTOS:",
+        "price_week": "30 € (De Lunes a Viernes comida)",
+        "prece_weekend": "35 € (Fin de Semana y Festivos)",
+        "starters": {
+            "name": "ENTRADAS (a elegir)",
+            "items": [
+                "Revuelto de Boletus con Gambas",
+                "Espárragos Blancos Dos Salsas",
+                "Ensalada de Pimientos con Anchoas",
+                "Sopa de Marisco",
+                "Alubiones con Almejas"
+            ]
+        },
+        "second_course": {
+            "name": "SEGUNDO (a elegir)",
+            "items": [
+                "Lubina a la Bilbaína",
+                "Merluza a la Romana",
+                "Entrecot de ternera",
+                "Cochinillo de Arévalo",
+                "Chipirones en su tinta"
+            ]
+        },
+        "dessert": {
+            "name": "POSTRE",
+            "item": "Postre Casero"
+        },
+        "wine": "Vino de la Casa y Agua (I.V.A. Incluido)"
+    },
+    "tasting_menu": {
+        "name": "MENÚ DEGUSTACIÓN : 42 €",
+        "starters": {
+            "name": "ENTRADAS",
+            "items": [
+                "Surtido de Ibéricos de Bellota",
+                "Pimientos rellenos de Bogavante",
+                "Ensalada del norte con ventresca",
+                "Gambas de Huelva a la plancha"
+            ]
+        },
+        "second_course": {
+            "name": "SEGUNDO (a elegir)",
+            "items": [
+                "Solomillo en salsa Roquefort",
+                "Merluza Don Bustos",
+                "Cocochas de Merluza",
+                "Bacalao al Pil-Pil",
+                "Cochinillo de Arévalo",
+                "Besugo a la Bilbaina"
+            ]
+        },
+        "dessert": {
+            "name": "POSTRE",
+            "item": "Postre Casero"
+        },
+        "drink": "Bebida no incluida (I.V.A. Incluido)"
+    }
+}

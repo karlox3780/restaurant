@@ -8,17 +8,17 @@ function MenusPage() {
 
     return (
         <div className='absolute flex flex-col items-center justify-center h-fit min-h-full w-full p-[10px] text-teal-200'>
-            <FadeInSection>
-                <div className='w-[600px] bg-[#24251D] p-[10px]'>
+            <FadeInSection class="w-[600px] max-xl:w-full">
+                <div className='w-[600px] bg-[#24251D] p-[10px] max-xl:w-full'>
                     <h1 className="text-[30px]">MENÚS DE DIARIO</h1>
                     <h3>( CONTACTE CON NOSOTROS, EN CASO DE SER UN GRUPO DE MÁS DE 10 PERSONAS )</h3>
                 </div>
             </FadeInSection>
-            <FadeInSection>
-                <div className='w-[600px] bg-[#24251D] p-[10px] m-[10px]'>
+            <FadeInSection class="w-[600px] max-xl:w-full">
+                <div className='w-[600px] bg-[#24251D] p-[10px] my-[10px] max-xl:w-full'>
                     <h1 className='text-[25px]'>{especial_menu.name}</h1>
                     <h1 className='text-[20px] mt-[5px]'>{especial_menu.price_week}</h1>
-                    <h1 className='text-[20px] mt-[5px]'>{especial_menu.prece_weekend}</h1>
+                    <h1 className='text-[20px] mt-[5px]'>{especial_menu.price_weekend}</h1>
                     <div className='border p-[20px] m-[20px]'>
                         <h2 className='text-[20px]'>{especial_menu.starters.name}</h2>
                         {
@@ -49,8 +49,8 @@ function MenusPage() {
 
                 </div>
             </FadeInSection>
-            <FadeInSection>
-                <div className='w-[600px] bg-[#24251D] p-[10px] m-[10px]'>
+            <FadeInSection class="w-[600px] max-xl:w-full">
+                <div className='w-[600px] bg-[#24251D] p-[10px] mt-[10px] max-xl:w-full'>
                     <h1 className='text-[25px]'>{tasting_menu.name}</h1>
                     <div className='border p-[20px] m-[20px]'>
                         <h2 className='text-[20px]'>{tasting_menu.starters.name}</h2>

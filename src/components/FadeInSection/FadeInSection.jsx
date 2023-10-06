@@ -8,11 +8,11 @@ function FadeInSection(props) {
             entries.forEach(entry => setVisible(entry.isIntersecting));
         });
         observer.observe(domRef.current);
-        return () => observer.unobserve(domRef.current);
     }, []);
     return (
         <div
-            className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+            className={`${props.class} fade-in-section ${isVisible ? 'is-visible' : ''}`
+            }
             ref={domRef}
         >
             {props.children}

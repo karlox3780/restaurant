@@ -2,7 +2,7 @@
     "especial_menu": {
         "name": "MENÚ ESPECIAL DON BUSTOS:",
         "price_week": "30 € (De Lunes a Viernes comida)",
-        "prece_weekend": "35 € (Fin de Semana y Festivos)",
+        "price_weekend": "35 € (Fin de Semana y Festivos)",
         "starters": {
             "name": "ENTRADAS (a elegir)",
             "items": [

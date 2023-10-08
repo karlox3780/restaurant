@@ -6,7 +6,7 @@ function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
 
     return (
-        <nav className="fixed flex flex-col h-full w-[200px] z-50 content-center items-center justify-normal flex-wrap bg-[#24251D] top-0 p-[10px] animate-fade-right animate-delay-0 animate-duration-2000 max-lg:w-full max-lg:h-[60px] max-lg:justify-between max-lg:flex-row">
+        <nav className="fixed flex flex-col h-full w-[200px] z-50 content-center items-center justify-normal flex-wrap bg-[#24251D] top-0 p-[10px] animate-fade-right animate-delay-0 animate-duration-2000 max-lg:w-full max-lg:h-[60px] max-lg:justify-between max-lg:flex-row max-lg:animate-fade-down">
             <div className="flex justify-center flex-shrink-0 text-white animate-fade-down animate-delay-[1000ms] animate-duration-1000">
                 <Link className="text-teal-200 hover:text-white" to="/">
                     <span className="font-semibold text-[20px] tracking-tight">Restaurant</span>
@@ -21,12 +21,25 @@ function Navbar() {
                     </svg>
                 </button>
             </div>
-            <div id="menu" className={`${isNavExpanded ? 'block' : 'hidden'} w-full flex-grow lg:hidden`}>
-                <div className="text-sm lg:flex-grow" >
-                    <Link to="/search" className="block text-[20px] lg:inline-block lg:mt-0 mt-[10px] text-teal-200 hover:text-white mr-4">
-                        Búsqueda
-                    </Link>
-                </div>
+            <div id="menu" onClick={() => { setIsNavExpanded(!isNavExpanded); }} className={`${isNavExpanded ? 'block' : 'hidden'} bg-[#24251D] animate-fade-down fixed left-0 top-[60px] w-full lg:hidden`}>
+                <Link className="text-teal-200 hover:text-white" to="/">
+                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Inicio</div>
+                </Link>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Carta</div>
+                </Link>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/menus">
+                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Menús</div>
+                </Link>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/winecellar">
+                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Bodega</div>
+                </Link>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Reservas y contactos</div>
+                </Link>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/about">
+                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Nosotros</div>
+                </Link>
             </div>
             <div className="absolute flex flex-col bottom-[10px] flex-shrink-0 text-white animate-fade-down animate-delay-[1000ms] animate-duration-1000 max-lg:hidden">
                 <Link className="text-teal-200 hover:text-white" to="/">
@@ -48,7 +61,7 @@ function Navbar() {
                     <span className="font-semibold text-[16px] tracking-tight">Nosotros</span>
                 </Link>
             </div>
-        </nav >
+        </nav>
     )
 }
 export default Navbar;

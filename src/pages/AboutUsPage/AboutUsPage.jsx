@@ -12,7 +12,7 @@ function AboutUsPage() {
                 La carta, elaborada por profesionales venidos de los fogones del Txistu y el Asador Donostiarra atraen cada día por la calidad de los productos y la maestría con que son preparados.
             </p>
             <p className="w-[500px] text-justify">
-                En la plaza ajardinada donde nos encontramos hay un parking subterráneo para dejar el coche. Allí mismo, los niños podrán jugar mientras los padres degustan
+                En la plaza ajardinada donde nos encontramos hay un parking subterráneo para dejar el coche. Allí mismo, los niños podrán jugar mientras los padres degustan.
             </p>
         </div>
     );

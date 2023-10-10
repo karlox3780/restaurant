@@ -1,0 +1,275 @@
+{
+    "menu": {
+        "starters": {
+            "name": "Entradas",
+            "items": [
+                {
+                    "name": "Surtido de Ibéricos (Lomo, Jamón, Chorizo y Queso)",
+                    "price": "23,00"
+                },
+                {
+                    "name": "Ensalada de Pimientos Asados con Bonito y Anchoas",
+                    "price": "12,50"
+                },
+                {
+                    "name": "Ensalada de Bonito del Norte con Langostinos",
+                    "price": "14,00"
+                },
+                {
+                    "name": "Paté de Perdiz del Chef",
+                    "price": "12,00"
+                },
+                {
+                    "name": "Pimientos del Piquillo Rellenos de Bogabante con Salsa de Carabineros",
+                    "price": "16,00"
+                },
+                {
+                    "name": "Salteado de Boletus Edulis con Micuit de Pato",
+                    "price": "21,00"
+                },
+                {
+                    "name": "Chipirones Rellenos en su tinta",
+                    "price": "16,00"
+                },
+                {
+                    "name": "Jamón Gran Reserva",
+                    "price": "21,00"
+                },
+                {
+                    "name": "Lomo Gran Reserva",
+                    "price": "19,00"
+                },
+                {
+                    "name": "Revueltos Variados",
+                    "price": "11,50"
+                }
+            ]
+        },
+        "seafood": {
+            "name": "Mariscos",
+            "items": [
+                {
+                    "name": "Langostinos Dos Salsas",
+                    "price": "15,00"
+                },
+                {
+                    "name": "Gambas a la Plancha o al Ajillo",
+                    "price": "24,00"
+                },
+                {
+                    "name": "Almejas Marinera",
+                    "price": "21,00"
+                },
+                {
+                    "name": "Paté de Perdiz del Chef",
+                    "price": "12,00"
+                },
+                {
+                    "name": "Cigalas a la Plancha o Cocidas 100gr. (peso)",
+                    "price": "Precio Según Mercado"
+                },
+                {
+                    "name": "Nécoras, Carabineros (peso)",
+                    "price": "Precio Según Mercado"
+                },
+                {
+                    "name": "Percebes (peso)",
+                    "price": "Precio Según Mercado"
+                },
+                {
+                    "name": "Almejas al Limón o Naturales 100gr (peso)",
+                    "price": "Precio Según Mercado"
+                }
+            ]
+        },
+        "vegetables": {
+            "name": "Verduras",
+            "items": [
+                {
+                    "name": "Espárragos Especiales dos Salsas",
+                    "price": "10,00"
+                },
+                {
+                    "name": "Panaché de Verduras",
+                    "price": "18,00"
+                },
+                {
+                    "name": "Alcachofas con Jamón",
+                    "price": "15,00"
+                },
+                {
+                    "name": "Judías Verdes con Jamón",
+                    "price": "10,00"
+                }
+            ]
+        },
+        "soups": {
+            "name": "Sopas",
+            "items": [
+                {
+                    "name": "Sopa Castellana",
+                    "price": "10,00"
+                },
+                {
+                    "name": "Consomé al Jerez",
+                    "price": "6,50"
+                },
+                {
+                    "name": "Crema de Nécora al Brandy",
+                    "price": "7,50"
+                },
+                {
+                    "name": "Sopa de Marisco",
+                    "price": "13,00"
+                },
+                {
+                    "name": "Alubiones de la Granja con Almejas",
+                    "price": "11,00"
+                }
+            ]
+        },
+        "fishes": {
+            "name": "Pescados",
+            "items": [
+                {
+                    "name": "Merluza Don Bustos",
+                    "price": "22,00"
+                },
+                {
+                    "name": "Merluza Koskera",
+                    "price": "23,00"
+                },
+                {
+                    "name": "Lomos de Merluza en Salsa Verde con Cocochas, Almejas y Gambas",
+                    "price": "25,00"
+                },
+                {
+                    "name": "Cogote de Merluza a la Parrilla",
+                    "price": "21,00"
+                },
+                {
+                    "name": "Lenguado Menier o Plancha",
+                    "price": "25,00"
+                },
+                {
+                    "name": "Rape en Salsa Verde",
+                    "price": "23,00"
+                },
+                {
+                    "name": "Besugo a la Bilbaina",
+                    "price": "25,00"
+                },
+                {
+                    "name": "Lubina a la Bilbaina",
+                    "price": "21,00"
+                },
+                {
+                    "name": "Cocochas al Pill-Pill o Salsa Verde",
+                    "price": "27,00"
+                },
+                {
+                    "name": "Bacalao Pill-Pill",
+                    "price": "22,00"
+                },
+                {
+                    "name": "Rodaballo",
+                    "price": "23,00"
+                }
+            ]
+        },
+        "meats": {
+            "name": "Carnes",
+            "items": [
+                {
+                    "name": "Escalope de Ternera",
+                    "price": "13,50"
+                },
+                {
+                    "name": "Escalope Cordon Bleu",
+                    "price": "18,00"
+                },
+                {
+                    "name": "Entrecot a la Parrilla",
+                    "price": "19,00"
+                },
+                {
+                    "name": "Entrecot a la Pimienta Verde",
+                    "price": "20,00"
+                },
+                {
+                    "name": "Chuletón de Ternera",
+                    "price": "25,00"
+                },
+                {
+                    "name": "Chuleta de Ternera",
+                    "price": "23,00"
+                },
+                {
+                    "name": "Chuletón a la Piedra (apartir de dos personas)",
+                    "price": "44,00"
+                },
+                {
+                    "name": "Solomillo en Salsa Roquefort",
+                    "price": "27,00"
+                },
+                {
+                    "name": "Solomillo a la Parrilla",
+                    "price": "26,00"
+                },
+                {
+                    "name": "Pierna o Paletilla de Lechazo",
+                    "price": "26,00"
+                },
+                {
+                    "name": "Chuletillas de Lechazo",
+                    "price": "24,00"
+                },
+                {
+                    "name": "Cochinillo de Arévalo",
+                    "price": "21,00"
+                }
+            ]
+        },
+        "desserts": {
+            "name": "Postres",
+            "items": [
+                {
+                    "name": "Flan de la Casa",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Natillas al Estilo de la Abuela",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Leche Frita",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Tarta de Almendras",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Tarta al Whisky",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Tarta Contessa",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Torrijas",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Hojaldre de Nata",
+                    "price": "5,50"
+                },
+                {
+                    "name": "Helados Variados",
+                    "price": "5,50"
+                }
+            ]
+        }
+    }
+}

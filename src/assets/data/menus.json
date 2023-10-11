@@ -1,5 +1,5 @@
-{
-    "especial_menu": {
+[
+    {
         "name": "MENÚ ESPECIAL DON BUSTOS:",
         "price_week": "30 € (De Lunes a Viernes comida)",
         "price_weekend": "35 € (Fin de Semana y Festivos)",
@@ -27,9 +27,9 @@
             "name": "POSTRE",
             "item": "Postre Casero"
         },
-        "wine": "Vino de la Casa y Agua (I.V.A. Incluido)"
+        "drink": "Vino de la Casa y Agua (I.V.A. Incluido)"
     },
-    "tasting_menu": {
+    {
         "name": "MENÚ DEGUSTACIÓN : 42 €",
         "starters": {
             "name": "ENTRADAS",
@@ -57,4 +57,4 @@
         },
         "drink": "Bebida no incluida (I.V.A. Incluido)"
     }
-}
+]

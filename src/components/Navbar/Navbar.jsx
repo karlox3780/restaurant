@@ -25,7 +25,7 @@ function Navbar() {
                 <Link className="text-teal-200 hover:text-white" to="/">
                     <div className="font-semibold text-[16px] p-[10px] tracking-tight">Inicio</div>
                 </Link>
-                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/menu">
                     <div className="font-semibold text-[16px] p-[10px] tracking-tight">Carta</div>
                 </Link>
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/menus">
@@ -45,7 +45,7 @@ function Navbar() {
                 <Link className="text-teal-200 hover:text-white" to="/">
                     <span className="font-semibold text-[16px] tracking-tight">Inicio</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/menu">
                     <span className="font-semibold text-[16px] tracking-tight">Carta</span>
                 </Link>
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/menus">

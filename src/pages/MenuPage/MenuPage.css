@@ -1,6 +1,5 @@
 .tab {
-    opacity: 0;
-    visibility: hidden;
+    display: none;
     transform: translate(0, 50px);
 }
 
@@ -10,8 +9,7 @@
 }
 
 .active-tab {
-    visibility: visible;
-    opacity: 1;
+    display: block;
     transform: translate(0, 0);
     z-index: 99;
 }

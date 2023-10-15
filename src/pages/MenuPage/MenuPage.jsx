@@ -1,4 +1,5 @@
 import './MenuPage.css';
+import Menu from '../../assets/data/menu.json';
 
 function MenuPage() {
 
@@ -16,21 +17,54 @@ function MenuPage() {
     }
     return (
         <div className='absolute flex flex-col h-fit min-h-full w-full p-[10px] items-center justify-center text-teal-200 animate-fade-down animate-duration-1000'>
-            <div class="tabs mx-auto w-[800px]" onClick={handleTabs}>
-                <div class="top flex text-gray-100 overflow-hidden">
-                    <div class="buttons w-full flex bg-[#24251D]">
-                        <span tab="1" class="btn cursor-pointer p-2 px-3 active-button">One</span>
-                        <span tab="2" class="btn cursor-pointer p-2 px-3">Two</span>
+            <div className="tabs h-fitw-[800px]" onClick={handleTabs}>
+                <div className="top flex text-gray-100 overflow-hidden">
+                    <div className="buttons w-full flex bg-[#24251D]">
+                        <span tab="1" className="btn cursor-pointer p-2 px-3 active-button">Mostrar Todo</span>
+                        {
+                            Menu.map((item, index) => {
+                                return (
+                                    <span tab={index + 2} className="btn cursor-pointer p-2 px-3">{item.name}</span>
+                                )
+                            })
+                        }
                     </div>
                 </div>
-                <div class="center text-gray-800 relative">
-                    <div class="tab w-full absolute top-0 active-tab">
-
+                <div className="center h-fit text-teal-200 relative">
+                    <div className="tab w-full h-fit top-0 active-tab">
+                        {
+                            Menu.map(item => {
+                                return (
+                                    <>
+                                        <h1 className="">{item.name}</h1>
+                                        {
+                                            item.items.map(plate => {
+                                                return (
+                                                    <p className='flex justify-between'><span>{plate.name}</span><span>{plate.price} €</span></p>
+                                                )
+                                            })
+                                        }
+                                    </>
+                                )
+                            })
+                        }
                     </div>
-
-                    <div class="tab w-full absolute top-0">
-
-                    </div>
+                    {
+                        Menu.map(item => {
+                            return (
+                                <div className="tab w-full h-fit top-0">
+                                    <h1 className="">{item.name}</h1>
+                                    {
+                                        item.items.map(plate => {
+                                            return (
+                                                <p className='flex justify-between'><span>{plate.name}</span><span>{plate.price} €</span></p>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </div>
         </div>

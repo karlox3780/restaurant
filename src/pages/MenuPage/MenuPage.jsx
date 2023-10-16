@@ -36,11 +36,11 @@ function MenuPage() {
                             Menu.map(item => {
                                 return (
                                     <>
-                                        <h1 className="">{item.name}</h1>
+                                        <h1 className="bg-[#24251D] py-[5px] my-[10px]">{item.name}</h1>
                                         {
                                             item.items.map(plate => {
                                                 return (
-                                                    <p className='flex justify-between'><span>{plate.name}</span><span>{plate.price} €</span></p>
+                                                    <p className='flex justify-between'><span>{plate.name}</span><span>{plate.price} {plate.price === "Precio Según Mercado" ? "" : "€"}</span></p>
                                                 )
                                             })
                                         }
@@ -53,7 +53,7 @@ function MenuPage() {
                         Menu.map(item => {
                             return (
                                 <div className="tab w-full h-fit top-0">
-                                    <h1 className="">{item.name}</h1>
+                                    <h1 className="bg-[#24251D] py-[5px] my-[10px]">{item.name}</h1>
                                     {
                                         item.items.map(plate => {
                                             return (

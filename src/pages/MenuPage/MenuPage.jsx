@@ -17,9 +17,9 @@ function MenuPage() {
     }
     return (
         <div className='absolute flex flex-col h-fit min-h-full w-full p-[10px] items-center justify-center text-teal-200 animate-fade-down animate-duration-1000'>
-            <div className="tabs h-fitw-[800px]" onClick={handleTabs}>
+            <div className="tabs h-fit max-lg:w-full" onClick={handleTabs}>
                 <div className="top flex text-gray-100 overflow-hidden">
-                    <div className="buttons w-full flex bg-[#24251D]">
+                    <div className="buttons w-full flex bg-[#24251D] max-lg:flex-col">
                         <span tab="1" className="btn cursor-pointer p-2 px-3 active-button">Mostrar Todo</span>
                         {
                             Menu.map((item, index) => {
@@ -30,7 +30,7 @@ function MenuPage() {
                         }
                     </div>
                 </div>
-                <div className="center h-fit text-teal-200 relative">
+                <div className="center h-fit text-teal-200 relative animate-fade-up animate-duration-1000">
                     <div className="tab w-full h-fit top-0 active-tab">
                         {
                             Menu.map(item => {

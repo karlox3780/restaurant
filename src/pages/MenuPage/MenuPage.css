@@ -1,6 +1,5 @@
 .tab {
     display: none;
-    transform: translate(0, 50px);
 }
 
 .active-tab,
@@ -10,7 +9,6 @@
 
 .active-tab {
     display: block;
-    transform: translate(0, 0);
     z-index: 99;
 }
 

@@ -6,6 +6,13 @@ function MenuPage() {
     function handleTabs(e) {
         e.preventDefault();
         const root = document.querySelector(".tabs"), tabs = root.querySelectorAll(".tab"), btns = root.querySelectorAll(".btn");
+        if (root.classList.contains("animate-fade-down")) {
+            root.classList.remove("animate-fade-down")
+            root.classList.add("animate-fade-up")
+        } else {
+            root.classList.remove("animate-fade-up");
+            root.classList.add("animate-fade-down");
+        }
         var t = e.target, val = t.getAttribute("tab");
         if (val != null) {
             tabs.forEach(each => { each.classList.remove("active-tab"); });
@@ -18,7 +25,7 @@ function MenuPage() {
 
     return (
         <div className="absolute flex flex-col h-fit min-h-full w-full p-[10px] items-center justify-center text-teal-200 animate-fade-down animate-duration-1000">
-            <div className="tabs max-lg:w-full" onClick={handleTabs}>
+            <div className="tabs animate-duration-1000 max-lg:w-full" onClick={handleTabs}>
                 <div className="top flex text-gray-100 overflow-hidden">
                     <div className="buttons w-full flex bg-[#24251D] max-lg:grid max-lg:grid-cols-2">
                         <span tab="1" className="btn cursor-pointer p-2 px-3 active-button">Mostrar Todo</span>

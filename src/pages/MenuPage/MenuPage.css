@@ -7,11 +7,6 @@
     z-index: 99;
 }
 
-.active-tab> {
-    display: block;
-    z-index: 99;
-}
-
 .active-button {
     background: rgb(153 246 228);
     color: black;

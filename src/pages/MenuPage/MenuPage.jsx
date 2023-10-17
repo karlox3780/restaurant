@@ -15,11 +15,12 @@ function MenuPage() {
         }
 
     }
+
     return (
-        <div className='absolute flex flex-col h-fit min-h-full w-full p-[10px] items-center justify-center text-teal-200 animate-fade-down animate-duration-1000'>
-            <div className="tabs h-fit max-lg:w-full" onClick={handleTabs}>
+        <div className="absolute flex flex-col h-fit min-h-full w-full p-[10px] items-center justify-center text-teal-200 animate-fade-down animate-duration-1000">
+            <div className="tabs max-lg:w-full" onClick={handleTabs}>
                 <div className="top flex text-gray-100 overflow-hidden">
-                    <div className="buttons w-full flex bg-[#24251D] max-lg:flex-col">
+                    <div className="buttons w-full flex bg-[#24251D] max-lg:grid max-lg:grid-cols-2">
                         <span tab="1" className="btn cursor-pointer p-2 px-3 active-button">Mostrar Todo</span>
                         {
                             Menu.map((item, index) => {
@@ -30,17 +31,17 @@ function MenuPage() {
                         }
                     </div>
                 </div>
-                <div className="center h-fit text-teal-200 relative animate-fade-up animate-duration-1000">
-                    <div className="tab w-full h-fit top-0 active-tab">
+                <div className="center h-fit text-teal-200 relative">
+                    <div className="tab w-full h-fit top-0 animate-fade-up animate-duration-1000 active-tab">
                         {
-                            Menu.map(item => {
+                            Menu.map(submenu => {
                                 return (
                                     <>
-                                        <h1 className="bg-[#24251D] py-[5px] my-[10px]">{item.name}</h1>
+                                        <h1 className="bg-[#24251D] py-[5px] my-[10px]">{submenu.name}</h1>
                                         {
-                                            item.items.map(plate => {
+                                            submenu.items.map(plate => {
                                                 return (
-                                                    <p className='flex justify-between'><span>{plate.name}</span><span>{plate.price} {plate.price === "Precio Según Mercado" ? "" : "€"}</span></p>
+                                                    <p className='flex items-center justify-between'><span className='text-left'>{plate.name}</span><span className='text-right max-lg:min-w-[70px]'>{plate.price} {plate.price === "Precio Según Mercado" ? "" : "€"}</span></p>
                                                 )
                                             })
                                         }
@@ -50,14 +51,14 @@ function MenuPage() {
                         }
                     </div>
                     {
-                        Menu.map(item => {
+                        Menu.map(submenu => {
                             return (
-                                <div className="tab w-full h-fit top-0">
-                                    <h1 className="bg-[#24251D] py-[5px] my-[10px]">{item.name}</h1>
+                                <div className="tab w-full h-fit top-0 animate-fade-up animate-duration-1000">
+                                    <h1 className="bg-[#24251D] py-[5px] my-[10px]">{submenu.name}</h1>
                                     {
-                                        item.items.map(plate => {
+                                        submenu.items.map(plate => {
                                             return (
-                                                <p className='flex justify-between'><span>{plate.name}</span><span>{plate.price} €</span></p>
+                                                <p className="flex items-center justify-between"><span className='text-left'>{plate.name}</span><span className='text-right max-lg:min-w-[70px]'>{plate.price} {plate.price === "Precio Según Mercado" ? "" : "€"}</span></p>
                                             )
                                         })
                                     }

@@ -2,12 +2,12 @@
     display: none;
 }
 
-.active-tab,
-.active-button {
-    transition: transform 0.2s, background 0.2s, color 0.2s;
+.active-tab {
+    display: block;
+    z-index: 99;
 }
 
-.active-tab {
+.active-tab> {
     display: block;
     z-index: 99;
 }

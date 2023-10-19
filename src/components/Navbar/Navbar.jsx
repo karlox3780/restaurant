@@ -34,8 +34,8 @@ function Navbar() {
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/winecellar">
                     <div className="font-semibold text-[16px] p-[10px] tracking-tight">Bodega</div>
                 </Link>
-                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
-                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Reservas y contactos</div>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/bookingandcontact">
+                    <div className="font-semibold text-[16px] p-[10px] tracking-tight">Reservas y contacto</div>
                 </Link>
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/about">
                     <div className="font-semibold text-[16px] p-[10px] tracking-tight">Nosotros</div>
@@ -54,8 +54,8 @@ function Navbar() {
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/winecellar">
                     <span className="font-semibold text-[16px] tracking-tight">Bodega</span>
                 </Link>
-                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/">
-                    <span className="font-semibold text-[16px] tracking-tight">Reservas y contactos</span>
+                <Link className="text-teal-200 hover:text-white mt-[10px]" to="/bookingandcontact">
+                    <span className="font-semibold text-[16px] tracking-tight">Reservas y contacto</span>
                 </Link>
                 <Link className="text-teal-200 hover:text-white mt-[10px]" to="/about">
                     <span className="font-semibold text-[16px] tracking-tight">Nosotros</span>

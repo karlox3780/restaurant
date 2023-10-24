@@ -4,7 +4,7 @@ import FadeInSection from '../../components/FadeInSection/FadeInSection';
 
 function MenusPage() {
     return (
-        <div className='absolute flex flex-col items-center justify-center h-fit min-h-full w-full p-[10px] text-teal-200'>
+        <div className='absolute flex flex-col items-center justify-center h-fit min-h-full w-full p-[10px] text-teal-200 animate-fade-down animate-duration-1000'>
             <FadeInSection class="w-[600px] max-xl:w-full">
                 <div className='w-[600px] bg-[#24251D] p-[10px] max-xl:w-full'>
                     <h1 className="text-[30px]">MENÚS DE DIARIO</h1>

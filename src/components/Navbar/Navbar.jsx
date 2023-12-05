@@ -21,7 +21,7 @@ function Navbar() {
                     </svg>
                 </button>
             </div>
-            <div id="menu" onClick={() => { setIsNavExpanded(!isNavExpanded); }} className={`${isNavExpanded ? 'block' : 'hidden'} bg-[#24251D] animate-fade-down fixed left-0 top-[60px] w-full lg:hidden`}>
+            <div id="menu" data-testid="menu" onClick={() => { setIsNavExpanded(!isNavExpanded); }} className={`${isNavExpanded ? 'block' : 'hidden'} bg-[#24251D] animate-fade-down fixed left-0 top-[60px] w-full lg:hidden`}>
                 <Link className="text-teal-200 hover:text-white" to="/">
                     <div className="font-semibold text-[16px] p-[10px] tracking-tight">Inicio</div>
                 </Link>

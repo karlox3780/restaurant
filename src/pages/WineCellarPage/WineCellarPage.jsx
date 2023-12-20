@@ -1,6 +1,6 @@
 import './WineCellarPage.css';
 import wines from '../../assets/data/wines.json';
-import WineColum from '../../components/WineColum/WineColum';
+import WineColum from '../../components/WineColum/WineColum.jsx';
 
 function WineCellarPage() {
     const winesArray = wines;

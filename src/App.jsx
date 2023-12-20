@@ -1,12 +1,12 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import HomePage from './pages/HomePage/HomePage';
-import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
-import WineCellarPage from './pages/WineCellarPage/WineCellarPage';
-import MenusPage from './pages/MenusPage/MenusPage';
-import MenuPage from './pages/MenuPage/MenuPage';
-import BookingandContactPage from './pages/BookingandContactPage/BookingandContact';
+import Navbar from './components/Navbar/Navbar.jsx';
+import HomePage from './pages/HomePage/HomePage.jsx';
+import AboutUsPage from './pages/AboutUsPage/AboutUsPage.jsx';
+import WineCellarPage from './pages/WineCellarPage/WineCellarPage.jsx';
+import MenusPage from './pages/MenusPage/MenusPage.jsx';
+import MenuPage from './pages/MenuPage/MenuPage.jsx';
+import BookingandContactPage from './pages/BookingandContactPage/BookingandContact.jsx';
 
 function App() {
   return (

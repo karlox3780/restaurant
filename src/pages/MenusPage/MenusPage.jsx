@@ -1,6 +1,6 @@
 import './MenusPage.css';
 import menus from '../../assets/data/menus.json';
-import FadeInSection from '../../components/FadeInSection/FadeInSection';
+import FadeInSection from '../../components/FadeInSection/FadeInSection.jsx';
 
 function MenusPage() {
     return (

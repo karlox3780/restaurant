@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
 
 const port = process.env.PORT || 3000;
 
@@ -14,9 +13,9 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
+                test: /\.(ts|js)x?$/i,
                 loader: "babel-loader",
-                exclude: [/node_modules/]
+                exclude: [/node_modules/],
             },
             {
                 test: /\.css$/i,

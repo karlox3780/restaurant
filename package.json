@@ -25,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "e2e": "cypress open",
-    "webpack-start": "webpack-dev-server"
+    "webpack-start": "webpack-dev-server",
+    "webpack": "webpack"
   },
   "eslintConfig": {
     "extends": [
